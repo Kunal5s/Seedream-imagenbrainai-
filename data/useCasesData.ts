@@ -53,6 +53,10 @@ export const useCasesData = [
     name: 'For Professionals',
     items: [
       {
+        title: 'Accelerate Your Workflow',
+        description: "In today's fast-paced creative industries, professionals need tools that are not just powerful, but also seamlessly integrate into their demanding workflows. Seedream ImagenBrainAi is engineered for this very purpose. It acts as a powerful accelerator, enabling you to generate client-ready concept art, marketing visuals, and architectural mockups in a fraction of the time. Move from brief to final asset with unprecedented speed, while maintaining complete creative control. Our platform provides the high-resolution output and commercial licensing required for professional projects, giving you a distinct competitive advantage and freeing up more time for high-level creative strategy."
+      },
+      {
         title: 'Designers & Artists',
         description: 'A must-have for modern creatives. The Seedream ImagenBrainAi for designers and Seedream ImagenBrainAi for artists helps accelerate brainstorming and asset creation for any project.'
       },
