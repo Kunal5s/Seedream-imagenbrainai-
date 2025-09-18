@@ -32,6 +32,10 @@ export const useCasesData = [
     name: 'Quality & Resolution',
     items: [
       {
+        title: 'Uncompromising Clarity',
+        description: 'In the world of digital art, quality is non-negotiable. Seedream ImagenBrainAi is engineered to deliver uncompromising clarity, ensuring every creation is sharp and ready for professional application. Our advanced models generate visuals from standard HD to breathtaking 15K resolution. This means your work will look stunning on any medium, from high-resolution digital displays to large-format prints. We believe your vision deserves to be seen in its full glory, without the limitations of pixelation or blur. Experience the difference that true high-resolution output makes for your creative projects.'
+      },
+      {
         title: 'Stunning 4K & 8K Images',
         description: 'Experience incredible detail with the Seedream ImagenBrainAi 4K tool. Generate Seedream ImagenBrainAi 4K images and even Seedream ImagenBrainAi 8K images for crystal-clear results.'
       },
