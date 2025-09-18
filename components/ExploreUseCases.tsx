@@ -16,12 +16,16 @@ const ExploreUseCases: React.FC = () => {
 
   return (
     <section>
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+      <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-200 to-green-400">
           Unlock Your Creative Universe
         </span>
       </h2>
       
+      <p className="text-lg text-gray-400 max-w-4xl mx-auto text-center mb-12">
+        Dive into a vast array of possibilities with Seedream ImagenBrainAi 4.0. This is more than just an image generator; it's a comprehensive creative suite designed to cater to every niche and industry. Whether you're a concept artist building fantastical worlds, a marketer designing a compelling ad campaign, or a game developer creating assets, our platform has the specialized tools you need. Explore the categories below to discover how our advanced AI can be tailored to your specific workflow, helping you create stunning visuals with unprecedented ease and precision.
+      </p>
+
       <div className="flex flex-wrap justify-center gap-2 md:gap-4 mb-8">
         {useCasesData.map(category => (
           <button key={category.name} onClick={() => setActiveTab(category.name)} className={getTabClass(category.name)}>
